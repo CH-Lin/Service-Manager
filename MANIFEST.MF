@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: servicemanager.ServiceManager
+Class-Path: LIB/mail.jar LIB/systray4j.jar LIB/dom4j-1.6.1.jar
+

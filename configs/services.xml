@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Services prefix="servicemanager.services.">
+	<!--<Service servicespath="tomcat.Tomcat" servicesui="tomcat.TomcatUI" name="Tomcat">Start.Stop</Service>-->
+	<Service servicespath="ip.IP" servicesui="ip.IPUI" name="IP">Start.Stop</Service>
+	<Service servicespath="mysql.MySQL" servicesui="mysql.MySQLUI"  name="MySQL">Start.Stop</Service>
+	<!--<Service servicespath="aas.AAS" name="AAS">Open</Service>-->
+	<!--<Service servicespath="filechecktools.FileCheckTool" name="File Check Tools">Open</Service>-->
+	<!--<Service servicespath="ecloaker.Ecloaker" name="E-mail cloaker">Open</Service>-->
+	<!--<Service servicespath="mail.Mail" name="Mail">Start.Stop</Service>-->
+	<!--<Service servicespath="freespace.FreeSpace" name="Free Space">Start.Stop</Service>-->
+	<Service servicespath="msn.Msn" name="MSN">Open</Service>
+	<Service servicespath="filelist.FileList" name="File List">Open</Service>
+</Services>
